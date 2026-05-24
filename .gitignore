@@ -1,0 +1,5 @@
+config.php
+*.sql
+*.rar
+*.zip
+scratch/
