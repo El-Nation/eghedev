@@ -1,5 +1,53 @@
+# =====================
+# Sensitive / Config
+# =====================
 config.php
+
+# =====================
+# Database & Archives
+# =====================
 *.sql
 *.rar
 *.zip
+*.tar
+*.tar.gz
+*.7z
+
+# =====================
+# Scratch / Temp
+# =====================
 scratch/
+tmp/
+temp/
+
+# =====================
+# OS Files
+# =====================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# =====================
+# Editor / IDE
+# =====================
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# =====================
+# PHP / XAMPP
+# =====================
+error_log
+php_errorlog
+*.log
+
+# =====================
+# Node (if used)
+# =====================
+node_modules/
+npm-debug.log*
+yarn-error.log*
+.env
+.env.local

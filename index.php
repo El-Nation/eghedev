@@ -150,7 +150,7 @@
         <div class="bg-mesh"></div>
         <div class="container">
             <div class="section-header reveal">
-                <h2>⭐ Featured Project</h2>
+                <h2>⭐ Featured Projects</h2>
             </div>
             
             <?php
@@ -216,6 +216,22 @@
                                     <div class="cred-row" style="display: flex; gap: 10px; font-size: 0.85rem;">
                                         <span class="role" style="color: var(--accent-color); font-weight: 600; min-width: 55px;">Staff:</span>
                                         <span class="user-pass" style="color: #fff; font-family: monospace;">staff@demo.com | 123456</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <?php elseif ($trimmed_title === 'Apex Markets'): ?>
+                            <div class="fp-credentials" style="border-color: #f59e0b; background: rgba(245, 158, 11, 0.05); padding: 1.2rem 1.5rem; border-radius: 12px; border: 1px solid #f59e0b; position: relative;">
+                                <div class="cred-header" style="color: #f59e0b; font-size: 0.75rem; text-transform: uppercase; letter-spacing: 1.5px; font-weight: 700; margin-bottom: 0.8rem; display: flex; align-items: center; gap: 8px;">
+                                    <i class="fas fa-user-circle"></i> <span>Demo Login</span>
+                                </div>
+                                <div class="cred-grid" style="display: flex; flex-direction: column; gap: 0.4rem;">
+                                    <div class="cred-row" style="display: flex; gap: 10px; font-size: 0.85rem;">
+                                        <span class="role" style="color: #f59e0b; font-weight: 600; min-width: 75px;">Username:</span>
+                                        <span class="user-pass" style="color: #fff; font-family: monospace;">demo</span>
+                                    </div>
+                                    <div class="cred-row" style="display: flex; gap: 10px; font-size: 0.85rem;">
+                                        <span class="role" style="color: #f59e0b; font-weight: 600; min-width: 75px;">Password:</span>
+                                        <span class="user-pass" style="color: #fff; font-family: monospace;">Demo@1234</span>
                                     </div>
                                 </div>
                             </div>

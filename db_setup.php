@@ -1,23 +1,11 @@
 <?php
-$host = 'localhost';
-$user = 'root';
-$pass = '';
+require_once 'config.php';
 
-$conn = new mysqli($host, $user, $pass);
-if ($conn->connect_error) {
-    die("Connection failed: " . $conn->connect_error);
+// Create database if it doesn't exist (primarily for local setup)
+if (isset($dbname)) {
+    $conn->query("CREATE DATABASE IF NOT EXISTS `$dbname`");
+    $conn->select_db($dbname);
 }
-
-// Create database
-$sql = "CREATE DATABASE IF NOT EXISTS portfolio";
-if ($conn->query($sql) === TRUE) {
-    echo "Database 'portfolio' created or already exists.\n";
-} else {
-    die("Error creating database: " . $conn->error);
-}
-
-// Select database
-$conn->select_db('portfolio');
 
 // Create Portfolio Messages Table
 $sql = "CREATE TABLE IF NOT EXISTS portfolio_messages (
@@ -80,6 +68,38 @@ $projects = [
         'tech_stack' => 'HTML, CSS, JavaScript, PHP, MySQL',
         'image_url' => 'assets/business.png',
         'demo_url' => 'https://managex.eghedev.com',
+        'is_featured' => 1
+    ],
+    [
+        'title' => 'Apex Markets',
+        'description' => 'A trading account platform with secure user authentication (sign-up, sign-in, password recovery) built for a brokerage-style experience. Includes account creation with terms/privacy consent flows and a dedicated demo login so visitors can explore the platform without registering. Designed with a clean, professional dashboard-style UI suited to fintech/trading products.',
+        'tech_stack' => 'PHP, MySQL, JavaScript, HTML/CSS',
+        'image_url' => 'assets/apex-market-image.jpeg',
+        'demo_url' => 'https://apexmarket.eghedev.com',
+        'is_featured' => 1
+    ],
+    [
+        'title' => 'McClean Elite Servicing',
+        'description' => 'A business website for a premium laundry and dry-cleaning service in Benin City, built to convert visitors into bookings. Features a full pickup-scheduling system (service type, address, preferred date/time slot, special instructions), a services breakdown, client testimonials, a portfolio gallery of completed work, and direct WhatsApp integration for instant customer contact — turning a local laundry business into a fully digital, bookable service.',
+        'tech_stack' => 'PHP, MySQL, JavaScript, HTML/CSS',
+        'image_url' => 'assets/mcclean laundry image.jfif',
+        'demo_url' => 'https://mcclean.eghedev.com',
+        'is_featured' => 1
+    ],
+    [
+        'title' => 'NestNaija',
+        'description' => 'A Nigerian real estate marketplace for buying, selling, and renting properties nationwide. Includes dynamic property listings with filtering by location, property type, and status (sale/rent), individual property detail pages, state-based browsing, and stats-driven trust indicators (verified listings, total value sold). Built to connect buyers, renters, and agents, with WhatsApp-based lead capture for property inquiries and listing requests.',
+        'tech_stack' => 'PHP, MySQL, JavaScript, HTML/CSS',
+        'image_url' => 'assets/nestnaija real estate image.jfif',
+        'demo_url' => 'https://nestnaija.eghedev.com',
+        'is_featured' => 1
+    ],
+    [
+        'title' => 'Aureum Grand',
+        'description' => 'A full hotel management and booking system for a fictional five-star Lagos hotel. Features room/suite browsing with availability search (check-in/out, guest count, room category), detailed room pages with pricing and amenities, a tiered guest loyalty program (Silver → VIP), a guest account portal, a separate staff/admin portal, and an AI concierge chat widget for handling guest inquiries about rates and services.',
+        'tech_stack' => 'PHP, MySQL, JavaScript, HTML/CSS',
+        'image_url' => 'assets/aureum hotel image.jfif',
+        'demo_url' => 'https://aureumgrand.eghedev.com',
         'is_featured' => 1
     ]
 ];
