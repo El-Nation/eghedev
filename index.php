@@ -121,24 +121,36 @@
                 <div class="tech-group">
                     <h3>Frontend</h3>
                     <div class="tech-list">
-                        <div class="tech-item"><i class="fab fa-html5"></i> HTML</div>
-                        <div class="tech-item"><i class="fab fa-css3-alt"></i> CSS</div>
+                        <div class="tech-item"><i class="fab fa-html5"></i> HTML5</div>
+                        <div class="tech-item"><i class="fab fa-css3-alt"></i> CSS3</div>
                         <div class="tech-item"><i class="fab fa-js"></i> JavaScript</div>
+                        <div class="tech-item"><i class="fab fa-bootstrap"></i> Bootstrap</div>
+                        <div class="tech-item"><i class="fab fa-react"></i> React</div>
+                        <div class="tech-item"><i class="fas fa-file-code"></i> TypeScript</div>
                     </div>
                 </div>
                 <div class="tech-group">
                     <h3>Backend</h3>
                     <div class="tech-list">
                         <div class="tech-item"><i class="fab fa-php"></i> PHP</div>
-                        <div class="tech-item"><i class="fas fa-database"></i> MySQL</div>
+                        <div class="tech-item"><i class="fab fa-node-js"></i> Node.js</div>
+                        <div class="tech-item"><i class="fas fa-server"></i> Express.js</div>
                     </div>
                 </div>
                 <div class="tech-group">
-                    <h3>Tools & Others</h3>
+                    <h3>Database</h3>
                     <div class="tech-list">
+                        <div class="tech-item"><i class="fas fa-database"></i> MySQL</div>
+                        <div class="tech-item"><i class="fas fa-database"></i> PostgreSQL</div>
+                    </div>
+                </div>
+                <div class="tech-group">
+                    <h3>API & Tools</h3>
+                    <div class="tech-list">
+                        <div class="tech-item"><i class="fas fa-network-wired"></i> REST API</div>
+                        <div class="tech-item"><i class="fas fa-book"></i> Swagger/OpenAPI</div>
                         <div class="tech-item"><i class="fab fa-git-alt"></i> Git</div>
-                        <div class="tech-item"><i class="fas fa-plug"></i> APIs</div>
-                        <div class="tech-item"><i class="fas fa-server"></i> Hosting</div>
+                        <div class="tech-item"><i class="fab fa-github"></i> GitHub</div>
                     </div>
                 </div>
             </div>
@@ -154,8 +166,8 @@
             </div>
             
             <?php
-            // Fetch Featured Project
-            $featured_res = $conn->query("SELECT * FROM portfolio_projects WHERE is_featured = 1 ORDER BY id ASC");
+            // Fetch Featured Project, ordering Nation Market Hub first
+            $featured_res = $conn->query("SELECT * FROM portfolio_projects WHERE is_featured = 1 ORDER BY CASE WHEN title LIKE '%Nation Market Hub%' THEN 0 ELSE 1 END, id ASC");
             if ($featured_res && $featured_res->num_rows > 0):
                 while($fp = $featured_res->fetch_assoc()):
             ?>
@@ -179,6 +191,9 @@
                         <div class="fp-action-area">
                             <div class="hero-btns">
                                 <a href="<?php echo $fp['demo_url']; ?>" target="_blank" class="btn btn-primary">Live Demo <i class="fas fa-external-link-alt"></i></a>
+                                <?php if(!empty($fp['github_url'])): ?>
+                                <a href="<?php echo $fp['github_url']; ?>" target="_blank" class="btn btn-secondary">GitHub <i class="fab fa-github"></i></a>
+                                <?php endif; ?>
                             </div>
                             <?php 
                             $trimmed_title = trim($fp['title']);
@@ -257,7 +272,7 @@
                         <img src="<?php echo $row['image_url']; ?>" alt="<?php echo $row['title']; ?>">
                     </div>
                     <div class="p-content">
-                        <span class="p-tech"><?php echo $row['tech_stack']; ?></span>
+                        <span class="p-tech"><?php echo str_replace(',', ' &bull;', $row['tech_stack']); ?></span>
                         <h3><?php echo $row['title']; ?></h3>
                         <div class="p-highlights">
                             <p style="font-size: 0.9rem; color: var(--text-muted); line-height: 1.5; margin-bottom: 1.5rem;">
@@ -265,8 +280,11 @@
                             </p>
                         </div>
                         <div class="p-action-area" style="display: flex; flex-direction: column; gap: 1.5rem; align-items: flex-start;">
-                            <div class="hero-btns">
+                            <div class="hero-btns" style="display: flex; gap: 1rem; align-items: center;">
                                 <a href="<?php echo $row['demo_url']; ?>" target="_blank" class="btn btn-primary">Live Demo</a>
+                                <?php if(!empty($row['github_url'])): ?>
+                                <a href="<?php echo $row['github_url']; ?>" target="_blank" class="btn btn-secondary" style="padding: 0.8rem 1.5rem;"><i class="fab fa-github"></i> GitHub</a>
+                                <?php endif; ?>
                             </div>
                             <?php 
                             $trimmed_grid_title = trim($row['title']);
