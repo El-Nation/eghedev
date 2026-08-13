@@ -4,8 +4,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Eghe Destiny | Web Developer Portfolio</title>
-    <meta name="description" content="Eghe Destiny - I build fast, scalable websites that help businesses grow. Specialized in modern web experiences.">
+    <title>Eghe Destiny | Full Stack Web Developer</title>
+    <meta name="description" content="Eghe Destiny - I build modern web applications and digital solutions that help businesses operate, grow, and serve their customers better.">
+    
+    <!-- Open Graph SEO -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://eghedev.com/">
+    <meta property="og:title" content="Eghe Destiny | Full Stack Web Developer">
+    <meta property="og:description" content="I build modern web applications and digital solutions that help businesses operate, grow, and serve their customers better.">
+    <meta property="og:image" content="https://eghedev.com/assets/profile.jpg.jpeg">
+
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link rel="icon" type="image/x-icon" href="favicon.ico">
