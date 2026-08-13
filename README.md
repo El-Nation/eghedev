@@ -1,100 +1,439 @@
-# Hi, I'm Eghe Destiny 👋
+👋 Eghe Destiny — Certified Full Stack Web Developer
 
-### Full-Stack Web Developer | PHP & MySQL Specialist | Building Real-World Web Solutions
+Welcome to my personal developer portfolio repository.
 
-I design and develop modern, user-friendly web experiences that are optimized for performance, scalability, and business impact. I don't just build websites — I build solutions that solve real problems and deliver measurable results.
+🌐 Live Portfolio: https://eghedev.com
+💻 GitHub: https://github.com/El-Nation
 
-🌍 Based in Nigeria &nbsp;|&nbsp; 🌐 [eghedev.com](https://eghedev.com) &nbsp;|&nbsp; 💼 [Available for Freelance Work](https://www.upwork.com/freelancers/~0115b4811e32b7417f)
+I’m a Certified Web Developer focused on building modern, responsive, scalable, and practical web applications that solve real-world business problems.
 
----
+My development journey started with a strong foundation in HTML, CSS, Bootstrap, JavaScript, PHP, and jQuery. I have continued expanding my skills into modern full-stack development with React, TypeScript, Node.js, Express.js, PostgreSQL, REST APIs, Swagger/OpenAPI, Git, and GitHub.
 
-## 🛠️ Tech Stack
+This repository contains the source code for my personal portfolio and showcases selected projects I have designed and developed across different industries.
 
-**Frontend**
-![HTML](https://img.shields.io/badge/HTML5-E34F26?style=flat&logo=html5&logoColor=white)
-![CSS](https://img.shields.io/badge/CSS3-1572B6?style=flat&logo=css3&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black)
+⸻
 
-**Backend**
-![PHP](https://img.shields.io/badge/PHP-777BB4?style=flat&logo=php&logoColor=white)
-![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat&logo=mysql&logoColor=white)
+📜 Certification
 
-**Tools**
-![Git](https://img.shields.io/badge/Git-F05032?style=flat&logo=git&logoColor=white)
-![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white)
-![Paystack](https://img.shields.io/badge/Paystack-00C3F7?style=flat&logo=paystack&logoColor=white)
+Course in Programming — Webbit Technologies
 
----
+I successfully completed a Course in Programming at Webbit Technologies.
 
-## 🚀 Featured Projects
+Issued: October 20, 2025
 
-### 🏥 [Mediflow](https://mediflow.eghedev.com) — Hospital Management System
-An enterprise-grade Hospital Management System architected for high-performance clinical workflows. Centralizes patient management, electronic health records, medication scheduling and real-time administrative analytics into a secure, unified ecosystem with role-based access for Admins, Doctors and Nurses.
-> **Stack:** PHP · MySQL · JavaScript · HTML/CSS
+The certification covered:
 
----
+* HTML
+* CSS
+* Bootstrap
+* JavaScript
+* PHP
+* jQuery
 
-### 💼 [ManageX](https://managex.eghedev.com) — Enterprise Business Suite
-A complete administrative tool with role-based access control, task tracking, customer management, reporting and audit logs — built to help businesses manage their operations efficiently in one place.
-> **Stack:** PHP · MySQL · JavaScript · HTML/CSS
+Certificate Reference: WTLTDPG25/009
 
----
+The certification represents my formal foundation in web development and programming, while my current projects demonstrate the additional technologies and full-stack skills I have developed since completing the course.
 
-### 👶 [TinyThread](https://tinythread.eghedev.com) — Kids Fashion E-Commerce
-A full-featured kids fashion e-commerce store with Paystack payment integration, live order tracking, wishlist, age-based product filtering and 1-2 hour delivery. Serving children aged 0-14 in Benin City.
-> **Stack:** PHP · MySQL · Paystack API · JavaScript · HTML/CSS
+⸻
 
----
+🚀 About This Portfolio
 
-### 🎬 [EMAX Cinema](https://emax.eghedev.com) — Cinema Booking Platform
-A high-fidelity cinema booking platform featuring real-time seat selection, movie scheduling, food & drinks ordering, gift cards and a premium immersive user interface across multiple locations in Nigeria.
-> **Stack:** PHP · MySQL · JavaScript · HTML/CSS
+eghedev.com is my personal developer portfolio and professional showcase.
 
----
+The website is designed to help potential clients, employers, and collaborators quickly understand:
 
-### 📈 [ApexMarket](https://apexmarket.eghedev.com) — Stock Trading Platform
-A trading account platform with secure user authentication, portfolio management, wallet system, trade history and a brokerage-style dashboard. Built with a clean fintech UI for professional traders.
-> **Stack:** PHP · MySQL · JavaScript · HTML/CSS
+* Who I am
+* What I build
+* The technologies I work with
+* Projects I have completed
+* My development capabilities
+* How to contact me
 
----
+The portfolio is continuously updated as I build new applications and expand my technical skills.
 
-### 🧺 [McClean](https://mcclean.eghedev.com) — Laundry Service Platform
-A business website for a premium laundry and dry-cleaning service in Benin City. Features a full pickup-scheduling system, service breakdown, client testimonials and direct WhatsApp integration — turning a local business into a fully digital, bookable service.
-> **Stack:** PHP · MySQL · JavaScript · HTML/CSS
+⸻
 
----
+🛠️ Current Technology Stack
 
-### 🏠 [NestNaija](https://nestnaija.eghedev.com) — Real Estate Marketplace
-A Nigerian real estate marketplace for buying, selling and renting properties nationwide. Features dynamic listings with filtering by location, property type and status, with WhatsApp-based lead capture for property inquiries.
-> **Stack:** PHP · MySQL · JavaScript · HTML/CSS
+Frontend
 
----
+* HTML5
+* CSS3
+* JavaScript
+* Bootstrap
+* React
+* TypeScript
 
-### 🏨 [Aureum Grand](https://aureumgrand.eghedev.com) — Hotel Management System
-A full hotel management and booking system for a five-star Lagos hotel. Features room browsing with availability search, a tiered guest loyalty program, guest account portal, staff/admin portal and an AI concierge chat widget.
-> **Stack:** PHP · MySQL · Paystack API · JavaScript · HTML/CSS
+Backend
 
----
+* PHP
+* Node.js
+* Express.js
 
-## 💡 What I Bring to Every Project
+Databases
 
-- ✅ Clean, maintainable code following industry best practices
-- ✅ Strong focus on performance, speed and optimization
-- ✅ Fully responsive designs that work across all devices
-- ✅ Secure authentication and data handling
-- ✅ Payment gateway integration (Paystack)
-- ✅ Clear communication and reliable delivery
+* MySQL
+* PostgreSQL
 
----
+APIs & Development Tools
 
-## 📫 Let's Work Together
+* REST APIs
+* Swagger / OpenAPI
+* Git
+* GitHub
+* Paystack API
 
-I'm available for freelance projects, collaborations and full-time opportunities.
+These technologies represent my overall development stack. Individual projects use the technologies appropriate to their specific architecture.
 
-[![Upwork](https://img.shields.io/badge/Hire%20Me%20on%20Upwork-6FDA44?style=flat&logo=upwork&logoColor=white)](https://www.upwork.com/freelancers/~0115b4811e32b7417f)
-[![Fiverr](https://img.shields.io/badge/Hire%20Me%20on%20Fiverr-1DBF73?style=flat&logo=fiverr&logoColor=white)](https://www.fiverr.com/elnation)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white)](https://linkedin.com/in/destiny-eghenayahiorre)
-[![Portfolio](https://img.shields.io/badge/Portfolio-000000?style=flat&logo=vercel&logoColor=white)](https://eghedev.com)
+⸻
 
-📧 **Email:** eghedestiny10@gmail.com
-📞 **Phone/WhatsApp:** +234 706 678 4058
+⭐ Featured Projects
+
+🌍 Nation Market Hub
+
+A full-stack service marketplace designed to connect customers with service providers across different service categories.
+
+The platform is designed around the idea of making it easier for customers to discover, hire, communicate with, and work with service providers.
+
+Technology Stack:
+
+* React
+* TypeScript
+* Node.js
+* Express.js
+* PostgreSQL
+
+🔗 Live Demo: https://nationmarkethub.eghedev.com
+💻 GitHub: https://github.com/El-Nation/nation-market-hub
+
+Demo Access
+
+Public test credentials may be provided for demonstration purposes.
+
+Demo credentials are intended strictly for testing and portfolio demonstration.
+
+⸻
+
+🏠 NestNaija
+
+A Nigerian real estate platform designed to help users discover and explore properties and real estate opportunities.
+
+Technology Stack:
+
+* PHP
+* MySQL
+* JavaScript
+* HTML
+* CSS
+
+🔗 Live Demo: https://nestnaija.eghedev.com
+
+Demo Access
+
+Public test credentials may be provided for demonstration purposes.
+
+Demo credentials are intended strictly for testing and portfolio demonstration.
+
+⸻
+
+🏥 MediFlow
+
+A hospital management system designed to centralize healthcare-related workflows, patient records, medication management, and administrative operations.
+
+Technology Stack:
+
+* PHP
+* MySQL
+* JavaScript
+* HTML
+* CSS
+
+🔗 Live Demo: https://mediflow.eghedev.com
+
+Demo Access
+
+Public test credentials may be provided for demonstration purposes.
+
+Demo credentials are intended strictly for testing and portfolio demonstration.
+
+⸻
+
+💼 ManageX
+
+A business management application designed to help organizations manage business operations, customers, tasks, reporting, user access, and administrative activities.
+
+Technology Stack:
+
+* PHP
+* MySQL
+* JavaScript
+* HTML
+* CSS
+
+🔗 Live Demo: https://managex.eghedev.com
+
+Demo Access
+
+Public test credentials may be provided for demonstration purposes.
+
+Demo credentials are intended strictly for testing and portfolio demonstration.
+
+⸻
+
+👶 TinyThread
+
+A children’s fashion e-commerce platform designed to provide a simple and user-friendly online shopping experience.
+
+The platform includes product browsing, filtering, shopping functionality, wishlist features, and e-commerce functionality.
+
+Technology Stack:
+
+* React
+* JavaScript
+* CSS
+* Firebase
+
+🔗 Live Demo: https://tinythread.eghedev.com
+
+⸻
+
+🎬 EMAX Cinema
+
+A cinema booking platform designed to provide users with an interactive movie-booking experience.
+
+The system includes movie browsing, seat selection, booking functionality, and additional cinema-related features.
+
+Technology Stack:
+
+* PHP
+* MySQL
+* JavaScript
+* HTML
+* CSS
+
+🔗 Live Demo: https://emax.eghedev.com
+
+Demo Access
+
+Public test credentials may be provided for demonstration purposes.
+
+Demo credentials are intended strictly for testing and portfolio demonstration.
+
+⸻
+
+🧺 McClean Elite Servicing
+
+A digital platform for a laundry and cleaning service business.
+
+The platform helps customers learn about available services and provides functionality for interacting with the business and requesting services.
+
+Technology Stack:
+
+* PHP
+* MySQL
+* JavaScript
+* HTML
+* CSS
+
+🔗 Live Demo: https://mcclean.eghedev.com
+
+⸻
+
+📈 Apex Markets
+
+A fintech-style web application focused on trading-related functionality, user accounts, wallet functionality, and financial platform features.
+
+Technology Stack:
+
+* PHP
+* MySQL
+* JavaScript
+* HTML
+* CSS
+
+🔗 Live Demo: https://apexmarket.eghedev.com
+
+Demo Access
+
+Public test credentials may be provided for demonstration purposes.
+
+Demo credentials are intended strictly for testing and portfolio demonstration.
+
+⸻
+
+🏨 Aureum Grand
+
+A hotel management and booking platform designed to provide users with hotel information, room-related functionality, booking features, and administrative capabilities.
+
+Technology Stack:
+
+* PHP
+* MySQL
+* JavaScript
+* HTML
+* CSS
+
+🔗 Live Demo: http://aureumgrand.eghedev.com
+
+Demo Access
+
+Public test credentials may be provided for demonstration purposes.
+
+Demo credentials are intended strictly for testing and portfolio demonstration.
+
+⸻
+
+💡 Development Capabilities
+
+My development experience includes building:
+
+* Full-stack web applications
+* Business management systems
+* E-commerce platforms
+* Service marketplaces
+* Real estate platforms
+* Healthcare management systems
+* Hotel and hospitality platforms
+* Cinema booking systems
+* Financial-style applications
+* Authentication systems
+* Database-driven applications
+* REST APIs
+* Payment integrations
+* Responsive websites
+
+⸻
+
+🔐 Authentication & Application Features
+
+Depending on the project, my applications can include features such as:
+
+* User registration and authentication
+* Role-based access control
+* Admin dashboards
+* User management
+* Database-driven workflows
+* Secure sessions
+* Password management
+* API integrations
+* Payment integration
+* Search and filtering
+* Booking systems
+* Reporting
+* Audit logging
+* Responsive interfaces
+
+⸻
+
+🔄 Development Workflow
+
+My current development workflow is built around Git and GitHub.
+
+Plan
+  ↓
+Develop with Cursor / VS Code
+  ↓
+Test Locally
+  ↓
+Verify Changes
+  ↓
+Git Commit
+  ↓
+GitHub
+  ↓
+Automatic Deployment
+  ↓
+Live Website
+
+I prefer an incremental development process where changes are implemented, tested, verified, committed, and pushed rather than making large uncontrolled changes at once.
+
+⸻
+
+🌐 Deployment
+
+My portfolio uses a GitHub-based deployment workflow.
+
+The development process is:
+
+Local Development → GitHub → Hostinger → Live Website
+
+This allows updates to be version-controlled and automatically deployed to the production website after changes are committed and pushed.
+
+⸻
+
+📂 Portfolio Structure
+
+The project is primarily structured around:
+
+portfolio/
+│
+├── assets/
+│   ├── images
+│   ├── project screenshots
+│   └── profile image
+│
+├── index.php
+├── style.css
+├── script.js
+├── config.php
+├── portfolio.sql
+└── README.md
+
+The exact structure may evolve as the portfolio continues to be improved.
+
+⸻
+
+🎯 My Development Philosophy
+
+I believe good development is more than simply writing code.
+
+A successful application should:
+
+* Solve a real problem
+* Be easy for users to understand
+* Perform efficiently
+* Be responsive across devices
+* Be maintainable
+* Be scalable
+* Protect user data
+* Provide a good user experience
+
+I focus on understanding the purpose behind a project and building technology around the actual needs of the business or users.
+
+⸻
+
+📫 Let’s Work Together
+
+I’m open to:
+
+* Freelance projects
+* Contract opportunities
+* Full-time opportunities
+* Development collaborations
+* Business and startup projects
+
+If you have an idea, business problem, or application you want to build, feel free to get in touch.
+
+📧 Email: eghedestiny10@gmail.com
+
+🌐 Portfolio: https://eghedev.com
+
+💻 GitHub: https://github.com/El-Nation
+
+⸻
+
+📌 Demo Credentials
+
+Some projects in this portfolio contain publicly accessible test accounts for demonstration purposes.
+
+Where applicable, demo credentials are provided for portfolio testing.
+
+Important: All credentials included in this README must be dedicated TEST/DEMO accounts. Never use production administrator passwords, personal passwords, database credentials, API keys, or other private credentials in this repository.
+
+⸻
+
+📄 License
+
+This repository contains my personal portfolio website and project showcase.
+
+© 2026 Eghe Destiny. All rights reserved.
