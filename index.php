@@ -46,18 +46,26 @@
     <section class="hero" id="home">
         <div class="bg-mesh"></div>
         <div class="container">
-            <div class="hero-grid">
+            <div class="hero-layout">
                 <div class="hero-content">
                     <div class="hero-tag reveal">
                         <span class="dot"></span> Available for freelance work
                     </div>
-                    <h1 class="reveal">Hi, I’m Eghe. <span>I build fast, scalable websites.</span></h1>
-                    <p class="hero-subtext reveal">I design and develop modern, user-friendly web experiences that are optimized for performance, scalability, and sites people actually enjoy using</p>
-                    <p class="hero-extra reveal">I help businesses and individuals turn ideas into fast, modern, and scalable web solutions.</p>
+                    <h1 class="reveal">Eghe Destiny</h1>
+                    <h2 class="hero-title reveal">Full Stack Web Developer</h2>
+                    <p class="hero-subtext reveal" style="font-size: 1.15rem;">I build modern web applications and digital solutions that help businesses operate, grow, and serve their customers better.</p>
                     <div class="hero-btns reveal">
-                    <a href="#projects" class="btn btn-primary">View My Work <i class="fas fa-arrow-right"></i></a>
-                    <a href="#contact" class="btn btn-secondary">Hire Me <i class="fas fa-arrow-right"></i></a>
+                        <a href="#projects" class="btn btn-primary">View My Work <i class="fas fa-arrow-right"></i></a>
+                        <a href="https://github.com/El-Nation" target="_blank" class="btn btn-secondary">GitHub <i class="fab fa-github"></i></a>
+                        <a href="#contact" class="btn btn-secondary">Contact Me <i class="fas fa-envelope"></i></a>
+                    </div>
                 </div>
+                <!-- Stage 4: Professional Picture -->
+                <div class="hero-image-wrapper reveal">
+                    <div class="hero-image-blob">
+                        <!-- User will upload this as assets/profile.jpg.jpeg -->
+                        <img src="assets/profile.jpg.jpeg" alt="Eghe Destiny - Full Stack Web Developer">
+                    </div>
                 </div>
             </div>
         </div>
