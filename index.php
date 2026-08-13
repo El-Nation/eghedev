@@ -79,9 +79,26 @@
                 <div class="about-content reveal">
                     <h2>👤 About Me</h2>
                     <div class="about-text">
-                        <p>I’m Eghe, a web developer passionate about building clean, efficient, and user-focused digital experiences. I specialize in creating responsive websites and web applications that combine modern design with strong functionality.</p>
-                        <p>With experience in both frontend and backend development, I focus on writing maintainable code, optimizing performance, and delivering solutions that are not only visually appealing but also reliable and scalable.</p>
-                        <p>I don’t just build websites — I build solutions that solve real problems and deliver measurable results.</p>
+                        <div class="about-block">
+                            <h3>Who I Am</h3>
+                            <p>I’m Eghe, a full-stack web developer passionate about building clean, efficient, and user-focused digital experiences.</p>
+                        </div>
+                        <div class="about-block">
+                            <h3>What I Build</h3>
+                            <p>Business websites, web applications, marketplaces, management systems, and robust e-commerce platforms.</p>
+                        </div>
+                        <div class="about-block">
+                            <h3>Technologies</h3>
+                            <p>React, TypeScript, Node.js, Express, PHP, MySQL, PostgreSQL, JavaScript, HTML, and CSS.</p>
+                        </div>
+                        <div class="about-block">
+                            <h3>Experience</h3>
+                            <p>I've engineered sophisticated solutions ranging from enterprise Hospital Management Systems like <strong>MEDIFLOW</strong> to scalable service marketplaces like <strong>Nation Market Hub</strong>.</p>
+                        </div>
+                        <div class="about-block">
+                            <h3>What I'm Open To</h3>
+                            <p>Freelance projects, contract work, collaborations, and relevant technical opportunities.</p>
+                        </div>
                     </div>
                 </div>
                 <div class="about-image reveal">

@@ -340,10 +340,23 @@ nav {
     letter-spacing: -1px;
 }
 
-.about-text p {
-    font-size: 1.1rem;
-    color: var(--text-secondary);
+.about-block {
     margin-bottom: 1.5rem;
+}
+
+.about-block h3 {
+    font-size: 1.15rem;
+    color: var(--accent-color);
+    margin-bottom: 0.25rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.about-block p {
+    font-size: 1.05rem;
+    color: var(--text-secondary);
+    line-height: 1.6;
+    margin: 0;
 }
 
 .about-image {
