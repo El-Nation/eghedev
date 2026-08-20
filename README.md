@@ -331,7 +331,7 @@ My current development workflow is built around Git and GitHub.
 
 Plan
   ↓
-Develop with Cursor / VS Code
+Develop with VS Code
   ↓
 Test Locally
   ↓
